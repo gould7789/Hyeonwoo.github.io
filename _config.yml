@@ -1,6 +1,6 @@
 # 깃허브 페이지 공식 테마를 적용하여 블로그에 적용
 title: 학습 노트
 description: 웹 공부 기록 및 정리 공간
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 lang: ko
 timezone: Asia/Seoul
