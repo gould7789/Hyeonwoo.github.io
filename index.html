@@ -1,3 +1,17 @@
 ---
 layout: default 
 ---
+
+<h1>학습 노트</h1>
+<p>웹 공부 기록 및 정리 공간</p>
+
+<hr>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span style="color: gray;">({{ post.date | date: "%Y-%m-%d" }})</span>
+    </li>
+  {% endfor %}
+</ul>
